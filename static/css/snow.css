@@ -1,0 +1,72 @@
+.snow{
+	margin: 0;
+	font-size: 14px;
+}
+/* 元素 */
+a{
+	text-decoration: none;
+}
+dt{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+/* 容器 */
+.wrap{
+	margin: 0 auto;
+	width: 1000px;
+}
+/* 定位 */
+.abs{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.rel{
+	position: relative;
+}
+.fixed{
+	position: fixed;
+}
+.fixed-bottom{
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+/* 边距 */
+.margin-top-10{
+	margin-top: 10px;
+}
+.margin-right-20{
+	margin-right: 20px;
+}
+.margin-left-20{
+	margin-left: 20px;
+}
+/* 对齐 */
+.center{
+	text-align: center;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+/* 浮动 */
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+/* 颜色 */
+.bg-dark{
+	background: #333;
+}
+.fg-white{
+	color: #fff;
+}
+.fg-white a{
+	color: #fff;
+}

@@ -1,0 +1,22 @@
+header{
+	padding: 10px;
+}
+header a{
+	padding: 5px;
+}
+footer{
+	padding: 20px 0;
+}
+dl{
+	margin: 0;
+	padding: 20px;
+}
+dl:nth-child(2n+1){
+	background: #eee;
+}
+dt{
+	padding-bottom: 10px;
+}
+dd a{
+	padding: 5px;
+}
