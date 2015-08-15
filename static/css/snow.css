@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 .snow{
 	margin: 0;
 	font-size: 14px;
@@ -9,6 +12,10 @@ a{
 dt{
 	font-weight: bold;
 	font-size: 1.2em;
+}
+input{
+	border: none;
+	padding: 2px;
 }
 /* 容器 */
 .wrap{
@@ -52,6 +59,10 @@ dt{
 }
 .right{
 	text-align: right;
+}
+/* 显示 */
+.inline{
+	display: inline-block;
 }
 /* 浮动 */
 .float-left{

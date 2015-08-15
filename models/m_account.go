@@ -1,7 +1,6 @@
 package models
 
 import (
-	//"fmt"
 	// "errors"
 	//"fmt"
 	"github.com/astaxie/beego/validation"

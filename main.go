@@ -5,7 +5,6 @@ import (
 	"github.com/beego/i18n"
 	_ "niux/routers"
 	"os"
-	"time"
 )
 
 const (
@@ -43,9 +42,4 @@ func initStaticPath() {
 // 初始化模板后缀
 func initTemplateExt() {
 	//beego.AddTemplateExt(".html")
-}
-
-// 引用自beego官网
-func loadtimes(t time.Time) int {
-	return int(time.Now().Sub(t).Nanoseconds() / 1e6)
 }

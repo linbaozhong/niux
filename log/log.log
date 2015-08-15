@@ -231,3 +231,4197 @@
 2015/08/03 21:15:59 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
 2015/08/03 21:18:38 [router.go:845] [D] | GET        | /                                        | 12.0007ms        | match      | /                                        | 
 2015/08/03 21:18:55 [router.go:845] [D] | GET        | /                                        | 17.0009ms        | match      | /                                        | 
+2015/08/03 21:44:17 [router.go:845] [D] | GET        | /html5                                   | 10.0005ms        | match      | /:tag                                    | 
+2015/08/04 11:09:01 [log.go:108] [D] Loading language: en-US 
+2015/08/04 11:09:01 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 11:09:01 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:09:01 [app.go:96] [I] http server Running on :80
+2015/08/04 11:12:38 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:12:38 [log.go:108] [D] parse template err: main/index.tpl template: main/index.tpl:35: unexpected <range> in range 
+2015/08/04 11:12:38 [app.go:96] [I] http server Running on :80
+2015/08/04 11:13:10 [log.go:108] [D] Loading language: en-US 
+2015/08/04 11:13:10 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 11:13:10 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:13:10 [app.go:96] [I] http server Running on :80
+2015/08/04 11:13:18 [router.go:845] [D] | GET        | /                                        | 39.0022ms        | match      | /                                        | 
+2015/08/04 11:15:50 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 11:15:50 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:15:50 [app.go:96] [I] http server Running on :80
+2015/08/04 11:15:54 [router.go:845] [D] | GET        | /                                        | 11.0006ms        | match      | /                                        | 
+2015/08/04 11:15:56 [router.go:845] [D] | GET        | /                                        | 10.0005ms        | match      | /                                        | 
+2015/08/04 11:18:32 [log.go:108] [D] Loading language: en-US 
+2015/08/04 11:18:32 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 11:18:32 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:18:32 [app.go:96] [I] http server Running on :80
+2015/08/04 11:18:35 [router.go:845] [D] | GET        | /                                        | 14.0008ms        | match      | /                                        | 
+2015/08/04 11:18:37 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 11:19:42 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:19:42 [app.go:96] [I] http server Running on :80
+2015/08/04 11:19:44 [router.go:845] [D] | GET        | /                                        | 16.0009ms        | match      | /                                        | 
+2015/08/04 11:19:45 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 11:20:41 [log.go:108] [D] Loading language: en-US 
+2015/08/04 11:20:41 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 11:20:41 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:20:41 [app.go:96] [I] http server Running on :80
+2015/08/04 11:20:42 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{ } 
+2015/08/04 11:20:42 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{ } 
+2015/08/04 11:20:42 [router.go:845] [D] | GET        | /                                        | 16.0009ms        | match      | /                                        | 
+2015/08/04 11:22:16 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 11:22:16 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:22:16 [app.go:96] [I] http server Running on :80
+2015/08/04 11:22:20 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{ } 
+2015/08/04 11:22:20 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{ } 
+2015/08/04 11:22:20 [router.go:845] [D] | GET        | /                                        | 11.0006ms        | match      | /                                        | 
+2015/08/04 11:27:15 [log.go:108] [D] Loading language: en-US 
+2015/08/04 11:27:15 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 11:27:15 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 11:27:15 [app.go:96] [I] http server Running on :80
+2015/08/04 11:27:20 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:27:20 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:27:20 [log.go:108] [D] template Execute err: template: main/index.tpl:36:15: executing "main/index.tpl" at <$channel.Name>: Name is not a field of struct type models.Channel 
+2015/08/04 11:27:20 [router.go:876] [C] the request url is  / 
+2015/08/04 11:27:20 [router.go:877] [C] Handler crashed with error template: main/index.tpl:36:15: executing "main/index.tpl" at <$channel.Name>: Name is not a field of struct type models.Channel 
+2015/08/04 11:27:20 [router.go:883] [C] c:/go/src/pkg/runtime/panic.c:248 
+2015/08/04 11:27:20 [router.go:883] [C] c:/snow/src/github.com/astaxie/beego/router.go:802 
+2015/08/04 11:27:20 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1673 
+2015/08/04 11:27:20 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1174 
+2015/08/04 11:27:20 [router.go:883] [C] c:/go/src/pkg/runtime/proc.c:1445 
+2015/08/04 11:28:25 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:28:25 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:28:25 [router.go:845] [D] | GET        | /                                        | 142.0082ms       | match      | /                                        | 
+2015/08/04 11:29:47 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:29:47 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:29:47 [router.go:845] [D] | GET        | /                                        | 128.0073ms       | match      | /                                        | 
+2015/08/04 11:33:46 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:33:46 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:33:46 [log.go:108] [D] parse template err: main/index.tpl template: main/index.tpl:15: unexpected bad character U+005B '[' in range 
+2015/08/04 11:33:46 [router.go:845] [D] | GET        | /                                        | 120.0069ms       | match      | /                                        | 
+2015/08/04 11:33:48 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:33:48 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:33:48 [log.go:108] [D] parse template err: main/index.tpl template: main/index.tpl:15: unexpected bad character U+005B '[' in range 
+2015/08/04 11:33:48 [router.go:845] [D] | GET        | /                                        | 120.0068ms       | match      | /                                        | 
+2015/08/04 11:35:01 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:35:01 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:35:01 [log.go:108] [D] parse template err: main/index.tpl template: main/index.tpl:15: unexpected bad character U+005B '[' in command 
+2015/08/04 11:35:01 [router.go:845] [D] | GET        | /                                        | 118.0067ms       | match      | /                                        | 
+2015/08/04 11:43:43 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:43:43 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:43:43 [log.go:108] [D] template Execute err: template: main/index.tpl:15:25: executing "main/index.tpl" at <.tags>: tags is not a field of struct type models.Channel 
+2015/08/04 11:43:43 [router.go:876] [C] the request url is  / 
+2015/08/04 11:43:43 [router.go:877] [C] Handler crashed with error template: main/index.tpl:15:25: executing "main/index.tpl" at <.tags>: tags is not a field of struct type models.Channel 
+2015/08/04 11:43:43 [router.go:883] [C] c:/go/src/pkg/runtime/panic.c:248 
+2015/08/04 11:43:43 [router.go:883] [C] c:/snow/src/github.com/astaxie/beego/router.go:802 
+2015/08/04 11:43:43 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1673 
+2015/08/04 11:43:43 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1174 
+2015/08/04 11:43:43 [router.go:883] [C] c:/go/src/pkg/runtime/proc.c:1445 
+2015/08/04 11:45:16 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:16 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:16 [router.go:845] [D] | GET        | /                                        | 145.0083ms       | match      | /                                        | 
+2015/08/04 11:45:23 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:24 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:24 [router.go:845] [D] | GET        | /                                        | 146.0084ms       | match      | /                                        | 
+2015/08/04 11:45:25 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:25 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:25 [router.go:845] [D] | GET        | /                                        | 140.008ms        | match      | /                                        | 
+2015/08/04 11:45:26 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:26 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:26 [router.go:845] [D] | GET        | /                                        | 127.0072ms       | match      | /                                        | 
+2015/08/04 11:45:27 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:27 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:27 [router.go:845] [D] | GET        | /                                        | 154.0088ms       | match      | /                                        | 
+2015/08/04 11:45:28 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:28 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:28 [router.go:845] [D] | GET        | /                                        | 149.0085ms       | match      | /                                        | 
+2015/08/04 11:45:29 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:29 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:29 [router.go:845] [D] | GET        | /                                        | 126.0072ms       | match      | /                                        | 
+2015/08/04 11:45:29 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:29 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:30 [router.go:845] [D] | GET        | /                                        | 128.0073ms       | match      | /                                        | 
+2015/08/04 11:45:30 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:30 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:30 [router.go:845] [D] | GET        | /                                        | 123.007ms        | match      | /                                        | 
+2015/08/04 11:45:31 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:31 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:31 [router.go:845] [D] | GET        | /                                        | 141.0081ms       | match      | /                                        | 
+2015/08/04 11:45:32 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:45:32 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:45:32 [router.go:845] [D] | GET        | /                                        | 151.0087ms       | match      | /                                        | 
+2015/08/04 11:47:16 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:47:16 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:47:16 [log.go:108] [D] template Execute err: template: main/index.tpl:16:16: executing "main/index.tpl" at <.Id>: can't evaluate field Id in type []models.Tag 
+2015/08/04 11:47:16 [router.go:876] [C] the request url is  / 
+2015/08/04 11:47:16 [router.go:877] [C] Handler crashed with error template: main/index.tpl:16:16: executing "main/index.tpl" at <.Id>: can't evaluate field Id in type []models.Tag 
+2015/08/04 11:47:16 [router.go:883] [C] c:/go/src/pkg/runtime/panic.c:248 
+2015/08/04 11:47:16 [router.go:883] [C] c:/snow/src/github.com/astaxie/beego/router.go:802 
+2015/08/04 11:47:16 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1673 
+2015/08/04 11:47:16 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1174 
+2015/08/04 11:47:16 [router.go:883] [C] c:/go/src/pkg/runtime/proc.c:1445 
+2015/08/04 11:47:33 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:[]models.Channel{
+    models.Channel{
+        Id: 1,
+        CnName: 移动,
+        EnName: Mobile,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 2,
+        CnName: 前端,
+        EnName: Front End,
+        Status: 0,
+        Deleted: 0,
+    },
+    models.Channel{
+        Id: 3,
+        CnName: 后端,
+        EnName: Back End,
+        Status: 0,
+        Deleted: 0,
+    },
+} 
+2015/08/04 11:47:33 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:map[int][]models.Tag{
+        1: []models.Tag{
+        models.Tag{
+            Id: 4,
+            Name: ios,
+            ViewName: IOS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 5,
+            Name: android,
+            ViewName: Android,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 6,
+            Name: windows phone,
+            ViewName: Windows Phone,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        2: []models.Tag{
+        models.Tag{
+            Id: 1,
+            Name: html5,
+            ViewName: HTML5,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 2,
+            Name: css,
+            ViewName: CSS,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 3,
+            Name: javascript,
+            ViewName: javascript,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 11,
+            Name: html,
+            ViewName: HTML,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 12,
+            Name: jquery,
+            ViewName: jQuery,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 13,
+            Name: css3,
+            ViewName: CSS3,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+        3: []models.Tag{
+        models.Tag{
+            Id: 7,
+            Name: java,
+            ViewName: java,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 8,
+            Name: csharp,
+            ViewName: C#,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 9,
+            Name: php,
+            ViewName: PHP,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+        models.Tag{
+            Id: 10,
+            Name: go,
+            ViewName: Go,
+            UseNum: 0,
+            ClickNum: 0,
+            Status: 0,
+            Deleted: 0,
+            Updator: 0,
+            Updated: 0,
+            Ip: ,
+        },
+    },
+} 
+2015/08/04 11:47:33 [router.go:845] [D] | GET        | /                                        | 137.0079ms       | match      | /                                        | 
+2015/08/04 12:26:30 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 12:26:30 [app.go:96] [I] http server Running on :80
+2015/08/04 12:28:44 [router.go:845] [D] | GET        | /                                        | 24.0014ms        | match      | /                                        | 
+2015/08/04 12:30:25 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 12:31:27 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 12:31:27 [app.go:96] [I] http server Running on :80
+2015/08/04 12:31:37 [router.go:845] [D] | GET        | /                                        | 33.0019ms        | match      | /                                        | 
+2015/08/04 12:31:38 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:31:39 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:31:40 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 12:31:40 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 12:31:41 [router.go:845] [D] | GET        | /                                        | 3.0002ms         | match      | /                                        | 
+2015/08/04 12:31:41 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:31:42 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:31:43 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 12:31:43 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 12:31:43 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 12:31:44 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:31:44 [router.go:845] [D] | GET        | /                                        | 11.0006ms        | match      | /                                        | 
+2015/08/04 12:31:44 [router.go:845] [D] | GET        | /                                        | 18.001ms         | match      | /                                        | 
+2015/08/04 12:31:45 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:31:46 [router.go:845] [D] | GET        | /                                        | 3.0002ms         | match      | /                                        | 
+2015/08/04 12:31:46 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 12:31:46 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 12:31:47 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:34:16 [log.go:108] [D] Loading language: en-US 
+2015/08/04 12:34:16 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 12:34:16 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 12:34:16 [app.go:96] [I] http server Running on :80
+2015/08/04 12:34:20 [router.go:845] [D] | GET        | /                                        | 37.0021ms        | match      | /                                        | 
+2015/08/04 12:34:21 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:22 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 12:34:23 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 12:34:23 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:24 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:24 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 12:34:25 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:25 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 12:34:26 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:27 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:27 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:28 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 12:34:28 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:34:29 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:30 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:30 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 12:34:31 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:33 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:34 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:35 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:36 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:36 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:34:42 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:34:44 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:45 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:46 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:47 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 12:34:47 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 12:34:48 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:34:49 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:50 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:34:50 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:51 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:52 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:52 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 12:34:53 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:54 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 12:34:55 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:55 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 12:34:56 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:57 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:34:58 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:35:02 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 12:35:02 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 12:35:03 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 12:35:04 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:35:04 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 12:35:05 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 12:35:06 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 12:35:06 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 12:35:07 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 12:35:07 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 12:36:51 [log.go:108] [D] Loading language: en-US 
+2015/08/04 12:36:51 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 12:36:51 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 12:36:51 [app.go:96] [I] http server Running on :80
+2015/08/04 15:49:02 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 15:49:02 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 15:49:02 [app.go:96] [I] http server Running on :80
+2015/08/04 15:49:11 [router.go:876] [C] the request url is  / 
+2015/08/04 15:49:11 [router.go:877] [C] Handler crashed with error runtime error: index out of range 
+2015/08/04 15:49:11 [router.go:883] [C] c:/go/src/pkg/runtime/panic.c:248 
+2015/08/04 15:49:11 [router.go:883] [C] c:/go/src/pkg/runtime/panic.c:552 
+2015/08/04 15:49:11 [router.go:883] [C] c:/go/src/pkg/runtime/panic.c:466 
+2015/08/04 15:49:11 [router.go:883] [C] c:/snow/src/niux/controllers/c_main.go:60 
+2015/08/04 15:49:11 [router.go:883] [C] c:/snow/src/github.com/astaxie/beego/router.go:777 
+2015/08/04 15:49:11 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1673 
+2015/08/04 15:49:11 [router.go:883] [C] c:/go/src/pkg/net/http/server.go:1174 
+2015/08/04 15:49:11 [router.go:883] [C] c:/go/src/pkg/runtime/proc.c:1445 
+2015/08/04 15:49:54 [log.go:108] [D] Loading language: en-US 
+2015/08/04 15:49:54 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 15:49:54 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 15:49:54 [app.go:96] [I] http server Running on :80
+2015/08/04 15:49:57 [router.go:845] [D] | GET        | /                                        | 20.0012ms        | match      | /                                        | 
+2015/08/04 15:50:05 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 15:50:06 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:50:06 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 15:50:07 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:50:08 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:50:09 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 15:50:09 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 15:50:10 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 15:50:11 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 15:50:12 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 15:50:12 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 15:50:13 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 15:50:14 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:50:14 [router.go:845] [D] | GET        | /                                        | 5.0002ms         | match      | /                                        | 
+2015/08/04 15:50:15 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 15:50:16 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 15:50:16 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 15:50:18 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 15:58:37 [log.go:108] [D] Loading language: en-US 
+2015/08/04 15:58:37 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 15:58:37 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 15:58:37 [app.go:96] [I] http server Running on :80
+2015/08/04 15:58:44 [router.go:845] [D] | GET        | /                                        | 27.0015ms        | match      | /                                        | 
+2015/08/04 15:58:46 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:58:47 [router.go:845] [D] | GET        | /                                        | 9.0006ms         | match      | /                                        | 
+2015/08/04 15:58:48 [router.go:845] [D] | GET        | /                                        | 5.0002ms         | match      | /                                        | 
+2015/08/04 15:58:49 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 15:58:49 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 15:58:51 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 15:58:53 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 15:58:54 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:58:55 [router.go:845] [D] | GET        | /                                        | 5.0003ms         | match      | /                                        | 
+2015/08/04 15:58:55 [router.go:845] [D] | GET        | /                                        | 5.0002ms         | match      | /                                        | 
+2015/08/04 15:58:56 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 15:58:57 [router.go:845] [D] | GET        | /                                        | 4.0003ms         | match      | /                                        | 
+2015/08/04 15:58:58 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:58:58 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 15:59:00 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 15:59:00 [router.go:845] [D] | GET        | /                                        | 5.0002ms         | match      | /                                        | 
+2015/08/04 15:59:01 [router.go:845] [D] | GET        | /                                        | 4.0002ms         | match      | /                                        | 
+2015/08/04 16:00:14 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 16:00:14 [app.go:96] [I] http server Running on :80
+2015/08/04 16:00:17 [router.go:845] [D] | GET        | /                                        | 15.0009ms        | match      | /                                        | 
+2015/08/04 16:00:26 [router.go:845] [D] | GET        | /                                        | 5.0002ms         | match      | /                                        | 
+2015/08/04 16:04:39 [log.go:108] [D] Loading language: en-US 
+2015/08/04 16:04:39 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 16:04:39 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 16:04:39 [app.go:96] [I] http server Running on :80
+2015/08/04 16:04:44 [router.go:845] [D] | GET        | /                                        | 17.0009ms        | match      | /                                        | 
+2015/08/04 16:04:46 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 16:04:47 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 16:04:47 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 16:08:35 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 16:08:36 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 17:12:52 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:12:52 [app.go:96] [I] http server Running on :80
+2015/08/04 17:13:03 [router.go:845] [D] | GET        | /                                        | 15.0008ms        | match      | /                                        | 
+2015/08/04 17:13:06 [router.go:845] [D] | GET        | /android                                 | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 17:14:17 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:14:17 [app.go:96] [I] http server Running on :80
+2015/08/04 17:14:21 [router.go:845] [D] | GET        | /android                                 | 19.0011ms        | match      | /:tag                                    | 
+2015/08/04 17:15:07 [log.go:108] [D] Loading language: en-US 
+2015/08/04 17:15:07 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 17:15:07 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:15:07 [app.go:96] [I] http server Running on :80
+2015/08/04 17:15:10 [router.go:845] [D] | GET        | /android                                 | 25.0014ms        | match      | /:tag                                    | 
+2015/08/04 17:15:56 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:15:56 [app.go:96] [I] http server Running on :80
+2015/08/04 17:17:40 [router.go:845] [D] | GET        | /android                                 | 26.0015ms        | match      | /:tag                                    | 
+2015/08/04 17:20:11 [router.go:845] [D] | GET        | /android                                 | 26.0015ms        | match      | /:tag                                    | 
+2015/08/04 17:28:07 [router.go:845] [D] | GET        | /android                                 | 8.0004ms         | match      | /:tag                                    | 
+2015/08/04 17:28:18 [router.go:845] [D] | GET        | /android                                 | 10.0006ms        | match      | /:tag                                    | 
+2015/08/04 17:31:01 [router.go:845] [D] | GET        | /android                                 | 9.0005ms         | match      | /:tag                                    | 
+2015/08/04 17:31:37 [router.go:845] [D] | GET        | /android                                 | 8.0005ms         | match      | /:tag                                    | 
+2015/08/04 17:32:28 [router.go:845] [D] | GET        | /android                                 | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 17:50:35 [router.go:845] [D] | GET        | /android                                 | 7.0004ms         | match      | /:tag                                    | 
+2015/08/04 17:52:48 [router.go:845] [D] | GET        | /android                                 | 7.0004ms         | match      | /:tag                                    | 
+2015/08/04 17:52:50 [router.go:845] [D] | GET        | /android                                 | 9.0005ms         | match      | /:tag                                    | 
+2015/08/04 17:53:41 [router.go:845] [D] | GET        | /android                                 | 19.0011ms        | match      | /:tag                                    | 
+2015/08/04 17:54:11 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 17:55:54 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:55:54 [app.go:96] [I] http server Running on :80
+2015/08/04 17:56:01 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:models.Channel{
+    Id: 1,
+    CnName: 移动,
+    EnName: Mobile,
+    Status: 0,
+    Deleted: 0,
+} 
+2015/08/04 17:56:01 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:models.Channel{
+    Id: 2,
+    CnName: 前端,
+    EnName: Front End,
+    Status: 0,
+    Deleted: 0,
+} 
+2015/08/04 17:56:01 [c_base.go:688] [D] [127.0.0.1] Main/GET Info:models.Channel{
+    Id: 3,
+    CnName: 后端,
+    EnName: Back End,
+    Status: 0,
+    Deleted: 0,
+} 
+2015/08/04 17:56:01 [router.go:845] [D] | GET        | /                                        | 48.0027ms        | match      | /                                        | 
+2015/08/04 17:56:40 [log.go:108] [D] Loading language: en-US 
+2015/08/04 17:56:40 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 17:56:40 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:56:40 [app.go:96] [I] http server Running on :80
+2015/08/04 17:58:00 [router.go:845] [D] | GET        | /                                        | 37.0021ms        | match      | /                                        | 
+2015/08/04 17:58:01 [router.go:845] [D] | GET        | /                                        | 11.0006ms        | match      | /                                        | 
+2015/08/04 17:58:20 [log.go:108] [D] Loading language: en-US 
+2015/08/04 17:58:20 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 17:58:20 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:58:20 [app.go:96] [I] http server Running on :80
+2015/08/04 17:58:22 [router.go:845] [D] | GET        | /                                        | 22.0012ms        | match      | /                                        | 
+2015/08/04 17:58:24 [router.go:845] [D] | GET        | /                                        | 11.0006ms        | match      | /                                        | 
+2015/08/04 17:58:55 [router.go:845] [D] | GET        | /                                        | 10.0006ms        | match      | /                                        | 
+2015/08/04 17:59:03 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:59:03 [app.go:96] [I] http server Running on :80
+2015/08/04 17:59:05 [router.go:845] [D] | GET        | /                                        | 37.0022ms        | match      | /                                        | 
+2015/08/04 17:59:29 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 17:59:29 [app.go:96] [I] http server Running on :80
+2015/08/04 17:59:31 [router.go:845] [D] | GET        | /                                        | 40.0023ms        | match      | /                                        | 
+2015/08/04 17:59:34 [router.go:845] [D] | GET        | /                                        | 13.0008ms        | match      | /                                        | 
+2015/08/04 17:59:40 [router.go:845] [D] | GET        | /javascript                              | 9.0006ms         | match      | /:tag                                    | 
+2015/08/04 17:59:44 [router.go:845] [D] | GET        | /javascript                              | 8.0004ms         | match      | /:tag                                    | 
+2015/08/04 17:59:45 [router.go:845] [D] | GET        | /javascript                              | 8.0004ms         | match      | /:tag                                    | 
+2015/08/04 18:09:41 [router.go:845] [D] | GET        | /javascript                              | 6.0003ms         | match      | /:tag                                    | 
+2015/08/04 18:11:10 [router.go:845] [D] | GET        | /javascript                              | 13.0008ms        | match      | /:tag                                    | 
+2015/08/04 18:15:19 [router.go:845] [D] | GET        | /javascript                              | 8.0004ms         | match      | /:tag                                    | 
+2015/08/04 18:17:19 [router.go:845] [D] | GET        | /javascript                              | 9.0005ms         | match      | /:tag                                    | 
+2015/08/04 18:18:03 [router.go:845] [D] | GET        | /javascript                              | 10.0005ms        | match      | /:tag                                    | 
+2015/08/04 18:19:09 [router.go:845] [D] | GET        | /javascript                              | 8.0004ms         | match      | /:tag                                    | 
+2015/08/04 18:20:33 [router.go:845] [D] | GET        | /javascript                              | 8.0005ms         | match      | /:tag                                    | 
+2015/08/04 18:20:40 [router.go:845] [D] | GET        | /android                                 | 10.0006ms        | match      | /:tag                                    | 
+2015/08/04 18:22:33 [router.go:845] [D] | GET        | /android                                 | 11.0006ms        | match      | /:tag                                    | 
+2015/08/04 18:23:35 [router.go:845] [D] | GET        | /android                                 | 9.0005ms         | match      | /:tag                                    | 
+2015/08/04 18:25:10 [router.go:845] [D] | GET        | /android                                 | 5.0003ms         | match      | /:tag                                    | 
+2015/08/04 19:40:29 [router.go:845] [D] | GET        | /android                                 | 11.0006ms        | match      | /:tag                                    | 
+2015/08/04 19:40:30 [router.go:845] [D] | GET        | /android                                 | 10.0006ms        | match      | /:tag                                    | 
+2015/08/04 19:40:31 [router.go:845] [D] | GET        | /android                                 | 5.0003ms         | match      | /:tag                                    | 
+2015/08/04 19:40:32 [router.go:845] [D] | GET        | /android                                 | 7.0004ms         | match      | /:tag                                    | 
+2015/08/04 19:40:33 [router.go:845] [D] | GET        | /android                                 | 9.0005ms         | match      | /:tag                                    | 
+2015/08/04 19:40:34 [router.go:845] [D] | GET        | /android                                 | 8.0004ms         | match      | /:tag                                    | 
+2015/08/04 19:40:47 [router.go:845] [D] | GET        | /windows phone                           | 10.0005ms        | match      | /:tag                                    | 
+2015/08/04 19:41:01 [router.go:845] [D] | GET        | /html                                    | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 19:41:03 [router.go:845] [D] | GET        | /css                                     | 10.0005ms        | match      | /:tag                                    | 
+2015/08/04 19:45:32 [router.go:845] [D] | GET        | /css                                     | 7.0004ms         | match      | /:tag                                    | 
+2015/08/04 19:45:33 [router.go:845] [D] | GET        | /css                                     | 8.0005ms         | match      | /:tag                                    | 
+2015/08/04 19:46:27 [router.go:845] [D] | GET        | /css                                     | 8.0005ms         | match      | /:tag                                    | 
+2015/08/04 20:10:31 [router.go:845] [D] | GET        | /css                                     | 11.0007ms        | match      | /:tag                                    | 
+2015/08/04 20:16:11 [router.go:845] [D] | GET        | /css                                     | 10.0006ms        | match      | /:tag                                    | 
+2015/08/04 20:18:56 [log.go:108] [D] Loading language: en-US 
+2015/08/04 20:18:56 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 20:18:56 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 20:18:56 [app.go:96] [I] http server Running on :80
+2015/08/04 20:18:59 [router.go:845] [D] | GET        | /css                                     | 29.0017ms        | match      | /:tag                                    | 
+2015/08/04 20:20:32 [router.go:845] [D] | GET        | /css                                     | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 20:24:52 [router.go:845] [D] | GET        | /css                                     | 16.0009ms        | match      | /:tag                                    | 
+2015/08/04 20:26:16 [router.go:845] [D] | GET        | /css                                     | 10.0006ms        | match      | /:tag                                    | 
+2015/08/04 20:30:14 [router.go:845] [D] | GET        | /css                                     | 9.0006ms         | match      | /:tag                                    | 
+2015/08/04 20:37:19 [router.go:845] [D] | GET        | /css                                     | 9.0005ms         | match      | /:tag                                    | 
+2015/08/04 20:37:19 [staticfile.go:62] [W] GetFileAttributesEx static/fonts/fontawesome-webfont.woff2: The system cannot find the path specified. 
+2015/08/04 20:37:19 [staticfile.go:62] [W] GetFileAttributesEx static/fonts/fontawesome-webfont.woff: The system cannot find the path specified. 
+2015/08/04 20:37:19 [staticfile.go:62] [W] GetFileAttributesEx static/fonts/fontawesome-webfont.ttf: The system cannot find the path specified. 
+2015/08/04 20:39:02 [router.go:845] [D] | GET        | /css                                     | 13.0007ms        | match      | /:tag                                    | 
+2015/08/04 20:43:21 [router.go:845] [D] | GET        | /css                                     | 8.0004ms         | match      | /:tag                                    | 
+2015/08/04 20:46:03 [router.go:845] [D] | GET        | /css                                     | 14.0008ms        | match      | /:tag                                    | 
+2015/08/04 20:51:13 [router.go:845] [D] | GET        | /css                                     | 14.0008ms        | match      | /:tag                                    | 
+2015/08/04 20:51:15 [router.go:845] [D] | GET        | /css                                     | 17.001ms         | match      | /:tag                                    | 
+2015/08/04 20:58:25 [router.go:845] [D] | GET        | /css                                     | 22.0012ms        | match      | /:tag                                    | 
+2015/08/04 20:58:26 [router.go:845] [D] | GET        | /css                                     | 20.0011ms        | match      | /:tag                                    | 
+2015/08/04 21:07:32 [router.go:845] [D] | GET        | /fonts/fontawesome-webfont.eot           | 1.0001ms         | notmatch   | 
+2015/08/04 21:08:19 [router.go:845] [D] | GET        | /                                        | 17.001ms         | match      | /                                        | 
+2015/08/04 21:09:09 [router.go:845] [D] | GET        | /javascript                              | 15.0008ms        | match      | /:tag                                    | 
+2015/08/04 21:10:16 [router.go:845] [D] | GET        | /                                        | 11.0006ms        | match      | /                                        | 
+2015/08/04 21:10:23 [router.go:845] [D] | GET        | /                                        | 12.0007ms        | match      | /                                        | 
+2015/08/04 21:10:45 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 21:10:45 [app.go:96] [I] http server Running on :80
+2015/08/04 21:10:48 [router.go:845] [D] | GET        | /                                        | 33.0018ms        | match      | /                                        | 
+2015/08/04 21:10:50 [router.go:845] [D] | GET        | /                                        | 10.0006ms        | match      | /                                        | 
+2015/08/04 21:11:28 [router.go:845] [D] | GET        | /                                        | 14.0008ms        | match      | /                                        | 
+2015/08/04 21:11:32 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 21:12:37 [router.go:845] [D] | GET        | /                                        | 12.0007ms        | match      | /                                        | 
+2015/08/04 21:12:38 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 21:12:39 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 21:12:54 [log.go:108] [D] Loading language: zh-CN 
+2015/08/04 21:12:54 [main.go:15] [I] niux 0.1.15.1105 
+2015/08/04 21:12:54 [app.go:96] [I] http server Running on :80
+2015/08/04 21:12:56 [router.go:845] [D] | GET        | /                                        | 53.003ms         | match      | /                                        | 
+2015/08/04 21:13:00 [router.go:845] [D] | GET        | /                                        | 10.0006ms        | match      | /                                        | 
+2015/08/04 21:14:00 [router.go:845] [D] | GET        | /                                        | 10.0006ms        | match      | /                                        | 
+2015/08/04 21:14:02 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 21:14:11 [router.go:845] [D] | GET        | /javascript                              | 16.0009ms        | match      | /:tag                                    | 
+2015/08/04 21:19:26 [router.go:845] [D] | GET        | /javascript                              | 18.001ms         | match      | /:tag                                    | 
+2015/08/04 21:19:30 [router.go:845] [D] | GET        | /javascript                              | 22.0012ms        | match      | /:tag                                    | 
+2015/08/04 21:20:43 [router.go:845] [D] | GET        | /javascript                              | 19.0011ms        | match      | /:tag                                    | 
+2015/08/04 21:24:38 [router.go:845] [D] | GET        | /javascript                              | 15.0008ms        | match      | /:tag                                    | 
+2015/08/04 21:28:35 [router.go:845] [D] | GET        | /javascript                              | 22.0013ms        | match      | /:tag                                    | 
+2015/08/04 21:30:11 [router.go:845] [D] | GET        | /javascript                              | 16.0009ms        | match      | /:tag                                    | 
+2015/08/04 21:36:13 [router.go:845] [D] | GET        | /javascript                              | 31.0018ms        | match      | /:tag                                    | 
+2015/08/04 21:40:46 [router.go:845] [D] | GET        | /javascript                              | 21.0012ms        | match      | /:tag                                    | 
+2015/08/04 21:43:00 [router.go:845] [D] | GET        | /javascript                              | 16.0009ms        | match      | /:tag                                    | 
+2015/08/04 21:43:01 [router.go:845] [D] | GET        | /javascript                              | 18.001ms         | match      | /:tag                                    | 
+2015/08/04 21:43:02 [router.go:845] [D] | GET        | /javascript                              | 16.0009ms        | match      | /:tag                                    | 
+2015/08/04 21:44:02 [router.go:845] [D] | GET        | /java                                    | 12.0006ms        | match      | /:tag                                    | 
+2015/08/04 21:51:37 [router.go:845] [D] | GET        | /java                                    | 13.0008ms        | match      | /:tag                                    | 
+2015/08/04 21:53:41 [router.go:845] [D] | GET        | /java                                    | 19.0011ms        | match      | /:tag                                    | 
+2015/08/04 21:53:42 [router.go:845] [D] | GET        | /java                                    | 13.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:53:43 [router.go:845] [D] | GET        | /java                                    | 13.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:53:44 [router.go:845] [D] | GET        | /java                                    | 13.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:53:45 [router.go:845] [D] | GET        | /java                                    | 15.0008ms        | match      | /:tag                                    | 
+2015/08/04 21:53:46 [router.go:845] [D] | GET        | /java                                    | 9.0006ms         | match      | /:tag                                    | 
+2015/08/04 21:53:47 [router.go:845] [D] | GET        | /java                                    | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:53:48 [router.go:845] [D] | GET        | /java                                    | 10.0005ms        | match      | /:tag                                    | 
+2015/08/04 21:53:49 [router.go:845] [D] | GET        | /java                                    | 16.0009ms        | match      | /:tag                                    | 
+2015/08/04 21:53:49 [router.go:845] [D] | GET        | /java                                    | 11.0006ms        | match      | /:tag                                    | 
+2015/08/04 21:53:50 [router.go:845] [D] | GET        | /java                                    | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:53:56 [router.go:845] [D] | GET        | /android                                 | 9.0005ms         | match      | /:tag                                    | 
+2015/08/04 21:53:58 [router.go:845] [D] | GET        | /html5                                   | 14.0008ms        | match      | /:tag                                    | 
+2015/08/04 21:54:01 [router.go:845] [D] | GET        | /javascript                              | 17.001ms         | match      | /:tag                                    | 
+2015/08/04 21:54:11 [router.go:845] [D] | GET        | /javascript                              | 13.0008ms        | match      | /:tag                                    | 
+2015/08/04 21:54:12 [router.go:845] [D] | GET        | /javascript                              | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:54:13 [router.go:845] [D] | GET        | /javascript                              | 15.0009ms        | match      | /:tag                                    | 
+2015/08/04 21:54:13 [router.go:845] [D] | GET        | /javascript                              | 14.0008ms        | match      | /:tag                                    | 
+2015/08/04 21:54:14 [router.go:845] [D] | GET        | /javascript                              | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:54:14 [router.go:845] [D] | GET        | /javascript                              | 16.0009ms        | match      | /:tag                                    | 
+2015/08/04 21:54:15 [router.go:845] [D] | GET        | /javascript                              | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:54:16 [router.go:845] [D] | GET        | /javascript                              | 18.001ms         | match      | /:tag                                    | 
+2015/08/04 21:54:16 [router.go:845] [D] | GET        | /javascript                              | 11.0006ms        | match      | /:tag                                    | 
+2015/08/04 21:54:17 [router.go:845] [D] | GET        | /javascript                              | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:54:17 [router.go:845] [D] | GET        | /javascript                              | 8.0005ms         | match      | /:tag                                    | 
+2015/08/04 21:54:18 [router.go:845] [D] | GET        | /javascript                              | 11.0006ms        | match      | /:tag                                    | 
+2015/08/04 21:54:18 [router.go:845] [D] | GET        | /javascript                              | 12.0007ms        | match      | /:tag                                    | 
+2015/08/04 21:54:19 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 21:54:20 [router.go:845] [D] | GET        | /                                        | 10.0006ms        | match      | /                                        | 
+2015/08/04 21:54:21 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 21:54:21 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 21:54:22 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 21:54:22 [router.go:845] [D] | GET        | /                                        | 10.0006ms        | match      | /                                        | 
+2015/08/04 21:54:23 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 21:54:23 [router.go:845] [D] | GET        | /                                        | 14.0008ms        | match      | /                                        | 
+2015/08/04 21:54:24 [router.go:845] [D] | GET        | /                                        | 9.0006ms         | match      | /                                        | 
+2015/08/04 21:54:25 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 21:54:25 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 21:54:26 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 21:54:26 [router.go:845] [D] | GET        | /                                        | 11.0006ms        | match      | /                                        | 
+2015/08/04 21:54:27 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 21:54:28 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 21:54:28 [router.go:845] [D] | GET        | /                                        | 12.0007ms        | match      | /                                        | 
+2015/08/04 21:54:29 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 21:54:29 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 21:54:30 [router.go:845] [D] | GET        | /                                        | 7.0004ms         | match      | /                                        | 
+2015/08/04 21:54:31 [router.go:845] [D] | GET        | /                                        | 8.0004ms         | match      | /                                        | 
+2015/08/04 21:54:31 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 21:54:32 [router.go:845] [D] | GET        | /                                        | 9.0006ms         | match      | /                                        | 
+2015/08/04 21:54:32 [router.go:845] [D] | GET        | /                                        | 6.0004ms         | match      | /                                        | 
+2015/08/04 21:54:33 [router.go:845] [D] | GET        | /                                        | 6.0003ms         | match      | /                                        | 
+2015/08/04 21:54:34 [router.go:845] [D] | GET        | /                                        | 9.0005ms         | match      | /                                        | 
+2015/08/04 21:54:34 [router.go:845] [D] | GET        | /                                        | 8.0005ms         | match      | /                                        | 
+2015/08/04 21:54:35 [router.go:845] [D] | GET        | /                                        | 10.0006ms        | match      | /                                        | 
